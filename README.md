@@ -1,0 +1,1 @@
+This project predicts stock volatility across multiple tickers using multiple Machine Learning and Deep Learning models with ticker embeddings. It leverages historical features, sequence modeling and time-safe splits to capture temporal and asset-specific patterns. Models are evaluated with MAE, RMSE and R² for robust financial forecasting.
