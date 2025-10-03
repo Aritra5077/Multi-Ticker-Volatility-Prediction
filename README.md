@@ -47,3 +47,15 @@ Models are ranked based on their performance across all three metrics using an a
 |  7   | Stacked GRU                     | 0.0179 | 0.0271 | 0.9199 | 8 | 8 | 5 |
 |  8   | CatBoost                        | 0.0171 | 0.0263 | 0.9143 | 6 | 6 | 8 |
 |  9   | Stacked LSTM                    | 0.0200 | 0.0283 | 0.9128 | 9 | 9 | 9 |
+## Key Insights
+- Deep learning architectures with attention mechanisms outperform both classical ML and standard RNN models.
+- Incorporating sentiment features provides significant performance gains, especially when combined with price sequences through ticker embeddings.
+- Multimodal fusion allows the model to capture both temporal patterns and contextual signals, leading to superior forecasting accuracy.
+## Conclusion
+This project establishes a solid end-to-end pipeline for volatility forecasting using multimodal data. It demonstrates that combining structured features, sentiment signals and deep learning with attention significantly boosts predictive performance over traditional models.
+## Tech Stack
+- Python, Pandas, NumPy, Scikit-learn
+- TensorFlow / Keras (Deep Learning)
+- XGBoost, LightGBM, CatBoost (ML)
+- FinBERT for sentiment extraction
+- Joblib for model saving
