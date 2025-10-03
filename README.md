@@ -15,5 +15,24 @@ In this project, we:
    - Sentiment scores and their lagged/rolling versions
    - Ticker identifiers (encoded + embedded for deep learning models)
  - **Target**: `Target_Volatility` (volatility values for each ticker over time)
-
 The dataset spans 25 tickers over 8 years, sorted by date and ticker to maintain temporal order.
+## Models Implemented
+### Machine Learning Baselines
+- XGBoost
+- LightGBM
+- CatBoost
+### Deep Learning Architectures
+- Simple GRU
+- Stacked GRU
+- Stacked LSTM
+- Stacked GRU with Attention
+- Stacked LSTM with Attention
+- Multimodal Deep Learning with Attention (Ticker Embeddings + Sentiment + Features)
+## Backtesting & Evaluation
+All models are trained using a rolling time-based split (Train / Validation / Test) for each ticker to preserve temporal structure.
+**Evaluation Metrics**:
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- R² Score
+
+Models are ranked based on their performance across all three metrics using an average rank score.
