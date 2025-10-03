@@ -36,3 +36,14 @@ All models are trained using a rolling time-based split (Train / Validation / Te
 - R² Score
 
 Models are ranked based on their performance across all three metrics using an average rank score.
+| Rank | Model                          |   MAE   |   RMSE  |    R²    | MAE Rank | RMSE Rank | R² Rank |
+|:----:|--------------------------------|:-------:|:-------:|:--------:|:--------:|:---------:|:-------:|
+|  1   | **Multimodal DL with Attention** | 0.0129 | 0.0212 | 0.9513 | 1 | 1 | 1 |
+|  2   | Stacked LSTM with Attention     | 0.0157 | 0.0245 | 0.9346 | 2 | 2 | 2 |
+|  3   | Stacked GRU with Attention      | 0.0171 | 0.0256 | 0.9287 | 5 | 3 | 3 |
+|  4   | XGBoost                         | 0.0169 | 0.0258 | 0.9177 | 3 | 4 | 6 |
+|  5   | Simple GRU                      | 0.0176 | 0.0270 | 0.9209 | 7 | 7 | 4 |
+|  6   | LightGBM                        | 0.0169 | 0.0261 | 0.9156 | 4 | 5 | 7 |
+|  7   | Stacked GRU                     | 0.0179 | 0.0271 | 0.9199 | 8 | 8 | 5 |
+|  8   | CatBoost                        | 0.0171 | 0.0263 | 0.9143 | 6 | 6 | 8 |
+|  9   | Stacked LSTM                    | 0.0200 | 0.0283 | 0.9128 | 9 | 9 | 9 |
