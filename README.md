@@ -15,4 +15,5 @@ In this project, we:
    - Sentiment scores and their lagged/rolling versions
    - Ticker identifiers (encoded + embedded for deep learning models)
  - **Target**: `Target_Volatility` (volatility values for each ticker over time)
+
 The dataset spans 25 tickers over 8 years, sorted by date and ticker to maintain temporal order.
