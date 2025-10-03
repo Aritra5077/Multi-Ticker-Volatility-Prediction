@@ -10,7 +10,7 @@ In this project, we:
 - Benchmarked several models ranging from **tree-based methods** to **deep learning architectures**.
 - Evaluated models using **MAE**, **RMSE** and **R²** and rank them using a combined ranking strategy.
  ## Dataset
- - **Source**: Historical market data fetched via **yfinance** and news sentiment data collected from **Kaggle** and then processed through **FinBERT** and **KeyBERT**.
+ - **Source**: Historical market data fetched via **yfinance** and news sentiment data collected from [**Kaggle**](https://www.kaggle.com/datasets/aaron7sun/stocknews) and then processed through **FinBERT** and **KeyBERT**.
  - **Features**:
  - - Price-based & technical indicators
    - Sentiment scores and their lagged/rolling versions
