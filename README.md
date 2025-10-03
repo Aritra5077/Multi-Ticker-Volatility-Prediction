@@ -6,6 +6,7 @@ In this project, we:
 - Built a supervised time series forecasting pipeline using multiple tickers.
 - Incorporated sentiment features (FinBERT and KeyBERT-based) along with price, technical, and derived indicators.
 - Applied lagged and rolling features per ticker to capture temporal dependencies.
+- Used **Granger Causality Analysis** to identify statistically significant predictive relationships between different features and tickers.
 - Benchmarked several models ranging from tree-based methods to deep learning architectures.
 - Evaluated models using MAE, RMSE and R² and rank them using a combined ranking strategy.
  ## Dataset
@@ -55,8 +56,8 @@ Models are ranked based on their performance across all three metrics using an a
 ## Conclusion
 This project establishes a solid end-to-end pipeline for volatility forecasting using multimodal data. It demonstrates that combining structured features, sentiment signals and deep learning with attention significantly boosts predictive performance over traditional models.
 ## Tech Stack
-- Python, Pandas, NumPy, Scikit-learn
-- TensorFlow / Keras (Deep Learning)
+- Python, NumPy, Pandas, Malplotlib, Seaborn, Scikit-learn
+- TensorFlow, Keras (Deep Learning)
 - XGBoost, LightGBM, CatBoost (ML)
 - FinBERT for sentiment extraction
 - Joblib for model saving
