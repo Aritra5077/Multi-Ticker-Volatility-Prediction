@@ -1,5 +1,5 @@
 # Multi-Ticker Volatility Prediction
-This project focuses on forecasting financial volatility across multiple tickers by combining traditional machine learning models with advanced deep learning architectures. The goal is to leverage both structured market data and unstructured sentiment signals to improve predictive performance in a multi-ticker time series setting.
+This project focuses on forecasting **financial volatility** across multiple tickers by combining traditional **machine learning models** with **advanced deep learning architectures**. The goal is to leverage both **structured market data** and **unstructured sentiment signals** to improve predictive performance in a multi-ticker **time-series** setting.
 ## Project Overview
 Financial markets are inherently dynamic, with volatility influenced by a mix of price movements, macroeconomic conditions, and market sentiment.
 In this project, we:
