@@ -4,7 +4,7 @@ This project focuses on forecasting **financial volatility** across multiple tic
 Financial markets are inherently dynamic, with volatility influenced by a mix of **price movements**, **macroeconomic conditions** and **market sentiment**.
 In this project, we:
 - Built a **supervised time-series forecasting** pipeline using multiple tickers.
-- Incorporated sentiment features (**FinBERT** and **KeyBERT**-based) along with price, technical, and derived indicators.
+- Incorporated sentiment features (**FinBERT** and **KeyBERT**-based) along with price, technical and derived indicators.
 - Applied **lagged** and **rolling features** per ticker to capture **temporal dependencies**.
 - Used **Granger Causality Analysis** to identify statistically significant predictive relationships between different features and tickers.
 - Benchmarked several models ranging from **tree-based methods** to **deep learning architectures**.
@@ -32,6 +32,7 @@ The dataset spans 25 tickers over 8 years, sorted by date and ticker to maintain
 - *Multimodal Deep Learning with Attention* (Ticker Embeddings + Sentiment + Features)
 ## Backtesting & Evaluation
 All models are trained using a rolling time-based split (Train / Validation / Test) for each ticker to preserve temporal structure.
+
 **Evaluation Metrics**:
 - *MAE* (Mean Absolute Error)
 - *RMSE* (Root Mean Squared Error)
